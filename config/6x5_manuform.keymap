@@ -41,11 +41,11 @@
             // |       |     |     |      |      |      |                   |      |       |       |      |       |       |
 
             bindings = <
- &ext_power EP_ON  &ext_power EP_OFF  &ext_power EP_TOG          &trans     &trans  &trans  &bt BT_CLR  &bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-           &trans             &kp N7             &kp N8          &kp N9     &trans  &trans      &kp F7        &kp F8           &kp F9       &kp F10       &kp F11       &kp F12
-           &trans             &kp N4             &kp N5          &kp N6  &kp EQUAL  &trans   &kp CARET      &kp AMPS  &kp KP_MULTIPLY      &kp LPAR      &kp RPAR     &kp TILDE
-           &trans             &kp N1             &kp N2          &kp N3     &trans  &trans      &trans     &kp MINUS      &kp KP_PLUS      &kp LBRC      &kp RBRC      &kp PIPE
-           &trans             &trans             &trans  &kp LEFT_SHIFT     &trans  &trans      &trans        &trans           &trans        &trans        &trans        &trans
+ &ext_power EP_ON  &ext_power EP_OFF  &ext_power EP_TOG          &trans  &trans             &trans  &bt BT_CLR  &bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+           &trans   &kp LEFT_BRACKET             &kp N7          &kp N8  &kp N9  &kp RIGHT_BRACKET      &kp F7        &kp F8           &kp F9       &kp F10       &kp F11       &kp F12
+           &trans           &kp SEMI             &kp N4          &kp N5  &kp N6          &kp EQUAL   &kp CARET      &kp AMPS  &kp KP_MULTIPLY      &kp LPAR      &kp RPAR     &kp TILDE
+           &trans          &kp GRAVE             &kp N1          &kp N2  &kp N3      &kp BACKSLASH      &trans     &kp MINUS      &kp KP_PLUS      &kp LBRC      &kp RBRC      &kp PIPE
+           &trans             &trans             &trans  &kp LEFT_SHIFT  &trans             &trans      &trans        &trans           &trans        &trans        &trans        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
