@@ -72,11 +72,11 @@
 
         refactor {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans  &trans         &trans         &trans         &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans  &trans     &kp LG(F6)  &kp LA(LG(M))  &kp LA(LG(V))  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LA(LG(C))  &kp LA(LG(P))  &kp LA(LG(F))  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans  &trans         &trans  &kp LA(LG(N))         &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans  &trans         &trans         &trans         &trans  &trans  &trans
             >;
         };
     };
